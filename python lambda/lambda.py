@@ -47,3 +47,6 @@ x2 = [(4,'b') , (2,'a') , (5,'c') , (1,'e') , (3,'d') , (7,'f')]
 
 print("sorted without lambda :" ,sorted(x2))
 print("sorted with lambda" , sorted(x2 , key=lambda i: i[1]))
+
+
+# _______________________________________________________________________________

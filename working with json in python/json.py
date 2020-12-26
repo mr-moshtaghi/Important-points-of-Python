@@ -15,7 +15,7 @@ json.dump(name1 , name2 , indent=2) => مقدار ایندنت میزان تو �
 
 
 from urllib.request import urlopen
-from json import dumps , loads
+from simplejson import dump , loads
 
 
 url = 'https://api.exchangeratesapi.io/latest'
@@ -25,5 +25,5 @@ with urlopen(url) as f :
 
 pdata = loads(data)
 
-with open('curency.json' 'w') as c :
+with open('curency.json', 'w') as c :
     dump(pdata , c , indent=2)

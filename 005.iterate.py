@@ -1,6 +1,6 @@
-'''
+"""
     Itrerable, Iterator, Iteration => Iterate
-'''
+"""
 
 for i in range(1, 11):
     print(i)

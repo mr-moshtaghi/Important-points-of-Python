@@ -26,7 +26,7 @@ def show():
 
 
 print("1. creating decorators")
-print(show())
+print("show...:", show())
 
 
 #################################################
@@ -59,7 +59,7 @@ def show1():
 
 print("2. applying multiple decorators to a single functions")
 print(str.split("hello world", ' '))
-print(show1())
+print("show1...: ", show1())
 
 
 ########################################################
@@ -81,7 +81,7 @@ def show3(text):
 
 
 print("3. accepting arguments in decorator functions")
-print(show3('how are you...'))
+print("show3...: ", show3('how are you...'))
 
 
 ######################################################
@@ -105,7 +105,7 @@ def show4(text):
 
 
 print("4. defining general purpose decorators")
-print(show4('how are you...', 'amir', age=20))
+print("show4...: ", show4('how are you...', 'amir', age=20))
 
 
 ########################################################
@@ -170,7 +170,7 @@ print(show6.__name__)
 def outer_deco7(v1, v2):
     def outer_upper7(func):
         def inner_upper7(t):
-            'inner_upper6 function'
+            'inner_upper7 function'
             f = func(t)
             print(v1, v2)
             text = f.upper()
@@ -183,7 +183,7 @@ def outer_deco7(v1, v2):
 
 @outer_deco7('amir', 20)
 def show7(text):
-    'show6 functions'
+    'show7 functions'
     return text
 
 

@@ -1,2 +1,2 @@
-# Important-points-of-Python
- نکات مهم و کاربردی از پایتون  
+# Important points of Python and Django
+ نکات مهم و کاربردی از پایتون و جنگو  

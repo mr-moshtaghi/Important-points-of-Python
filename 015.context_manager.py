@@ -1,4 +1,3 @@
-
 # f = open("test_context_manager.txt", "r")
 # for i in f:
 #     print(i)
@@ -6,15 +5,9 @@
 # f.close()
 
 
-
-
-
 # with open("test_context_manager.txt", "r") as f:
 #     for i in f:
 #         print(i)
-
-
-
 
 
 # class A:
@@ -31,11 +24,6 @@
 #
 # with A():
 #     show()
-
-
-
-
-
 
 
 class FileManager:
